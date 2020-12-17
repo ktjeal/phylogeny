@@ -5,8 +5,9 @@ Example data is provided and contains the protein sequences of CRN homologues fr
 
 To run:
 1. Create a single directory with your protein sequences of interest and the MUSCLE binary which can be downloaded from (https://www.drive5.com/muscle/downloads.htm)
-2. For sample data download FASTA file into this directory
+2. For sample data the CRN FASTA file in this repository can be downloaded into your single directory
 3. Align the protein sequences you want to investigate:
+
 Make sure you specify the location of the muscle binary and the input sequences, as well as specifying where you want your aligned output to be saved. 
 ```
 # Alignment of sequences
@@ -28,6 +29,7 @@ def musclealign (Fasta):
 musclealign(input_sequences)
 ``` 
 4. Convert aligned sequence output from FASTA to phylip:
+
 This is a necessary step as the aligned output in FASTA format is incompatible with the tree generation software from BioPython
 ```
 #Converting aligned sequence output from FASTA to phylip
