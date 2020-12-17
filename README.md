@@ -7,4 +7,9 @@ To run:
 1. Create a single directory with your protein sequences of interest and the MUSCLE binary which can be downloaded from (https://www.drive5.com/muscle/downloads.htm)
 2. For sample data download FASTA file into this directory
 3. Align the protein sequences you want to investigate:
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+``` 
 
