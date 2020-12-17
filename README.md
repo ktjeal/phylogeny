@@ -4,8 +4,8 @@ This code aligns protein sequences which can then be used to generate a basic ph
 Example data is provided and contains the protein sequences of CRN homologues from various wheat species and Arabidopsis and maize which act as an outgroup. 
 
 To run:
-1. Create a single directory with your protein sequences of interest and the MUSCLE binary which can be downloaded from (https://www.drive5.com/muscle/downloads.htm)
-2. For sample data the CRN FASTA file in this repository can be downloaded into your single directory
+1. Create a single working directory with your protein sequences of interest and the MUSCLE binary which can be downloaded from (https://www.drive5.com/muscle/downloads.htm)
+2. For sample data the CRN.fasta file located in this repository can be downloaded into your single working directory for use
 3. Align the protein sequences you want to investigate:
 
 Make sure you specify the location of the muscle binary and the input sequences, as well as specifying where you want your aligned output to be saved. 
