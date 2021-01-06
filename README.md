@@ -40,6 +40,8 @@ aln = AlignIO.read(output_phy, 'phylip')
 print(aln) #visualises the output in phylip format to confirm that conversion was successful
 ```
 5. Generate a basic phylogenetic tree:
+
+This constructs a phylogenetic tree and allows visualisation in a basic dendogram format. 
 ```
 #Generation of a basic phylogenetic tree
 from Bio import Phylo
@@ -56,6 +58,8 @@ print(njtree) #prints the nj tree in text format
 Phylo.draw_ascii(njtree) #print the nj tree in basic dendrogram format
 ```
 6. Generate a tree plot and export it to phyloXML format:
+
+This prints the tree in a plot, however due it is hard to edit the plot using BioPython so this code also enables the export of the tree into PhyloXML format which can then be visualised and edited in other software. 
 ```
 #Generation of a tree plot and export to Phyloxmyl format
 Phylo.draw(njtree) #prints the nj tree in a plot
