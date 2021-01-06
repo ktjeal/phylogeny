@@ -1,5 +1,5 @@
 # Generation of a Phylogenetic Tree
-This code, phylogeny.py, aligns sequences which can then be used to generate a basic phylogenetic tree which is exported it in to PhyloXML format so the tree can be visualised using other phylogenetic software. 
+This code (phylogeny.py) aligns sequences which can then be used to generate a basic phylogenetic tree which is exported it in to PhyloXML format so the tree can be visualised using other phylogenetic software. 
 
 To run:
 1. Collate all gene sequences of interest into a single fasta file, for sample data the CRN.fasta file which contains the protein sequences of CRN homologues from various wheat species and Arabidopsis and maize is located in the repository and can be downloaded
