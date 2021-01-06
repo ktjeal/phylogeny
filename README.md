@@ -1,4 +1,4 @@
-# Phylogeny
+# Generation of a Phylogenetic Tree
 This code aligns sequences which can then be used to generate a basic phylogenetic tree which is exported it in to PhyloXML format so the tree can be visualised using other phylogenetic software. 
 
 To run:
