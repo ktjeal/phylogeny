@@ -59,7 +59,7 @@ Phylo.draw_ascii(njtree) #print the nj tree in basic dendrogram format
 ```
 6. Generate a tree plot and export it to phyloXML format:
 
-This prints the tree in a plot, however it is hard to edit the plot using BioPython so this code also enables the export of the tree into PhyloXML format which can then be visualised and edited in other software. 
+This prints the tree in a plot, however it is hard to edit the plot using BioPython so this code also enables the export of the tree into PhyloXML format so the phylogenetic tree can be visualised and edited in other software. 
 ```
 #Generation of a tree plot and export to Phyloxmyl format
 Phylo.draw(njtree) #prints the nj tree in a plot
