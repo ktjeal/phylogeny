@@ -4,7 +4,7 @@ This code (phylogeny.py) aligns sequences which can then be used to generate a b
 To run:
 1. Collate all gene sequences of interest into a single fasta file, for sample data the CRN.fasta file which contains the protein sequences of CRN homologues from various wheat species and Arabidopsis and maize is located in the repository and can be downloaded
 2. Create a single working directory with your fasta file containing the protein sequences of interest and the MUSCLE binary which can be downloaded from https://www.drive5.com/muscle/downloads.htm
-3. Align the protein sequences you want to investigate:
+3. Align the sequences you want to investigate:
 
 Make sure you specify the location of the muscle binary and the input sequences, as well as specifying where you want your aligned output to be saved. 
 ```
