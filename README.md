@@ -26,6 +26,8 @@ def musclealign (Fasta):
 
 musclealign(input_sequences)
 ``` 
+The output will provide the first 44 genes or proteins in the alignment, with gaps in the alignment being represented by dashes (-).
+
 4. Convert aligned sequence output from FASTA to phylip:
 
 This is a necessary step as the aligned output in FASTA format is incompatible with the tree generation software from BioPython
@@ -39,6 +41,8 @@ AlignIO.write(alignments, output_phy, "phylip") #specify the format you want the
 aln = AlignIO.read(output_phy, 'phylip')
 print(aln) #visualises the output in phylip format to confirm that conversion was successful
 ```
+The output will print the alignment of the phylip output file, this shows that conversion to phylip format was successful.
+
 5. Generate a basic phylogenetic tree:
 
 This constructs a phylogenetic tree and allows visualisation in a basic dendogram format. 
@@ -57,6 +61,8 @@ njtree = constructor.nj(dm) #constructs tree using neighbour joining methods
 print(njtree) #prints the nj tree in text format
 Phylo.draw_ascii(njtree) #print the nj tree in basic dendrogram format
 ```
+The output will first generate the phylogenetic tree in plain text format (which contains the information about the tree but does not visualise it) and then dendogram format (which provides a basic visualisation of teh phylogenetic tree generated). 
+
 6. Generate a tree plot and export it to phyloXML format:
 
 This prints the tree in a plot, however it is hard to edit the plot using BioPython so this code also enables the export of the tree into PhyloXML format so the phylogenetic tree can be visualised and edited in other software. 
@@ -68,3 +74,4 @@ Phylo.write(njtree, sys.stdout, "phyloxml") #prints the tree in phyloxml format
 tree_out= "/Users/kj16227/TreeGeneration/tree_out.xml" #speciify where you want the tree in phyloxml format to be saved
 Phylo.write(njtree, tree_out, "phyloxml") #saves the phylogenetic tree in phyloxml output for further use
 ```
+The output will provide a plot of the phylogenetic tree. 
